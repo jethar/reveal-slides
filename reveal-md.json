@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    "plugin/fontawesome_all.min.js",
+    "plugin/chalkboard/plugin.js",
+    "plugin/customcontrols/plugin.js",
+    "plugin.js"
+  ],
+  "css": ["plugin/customcontrols/style.css", "plugin/chalkboard/style.css", "css/style.css"]
+}

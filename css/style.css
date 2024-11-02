@@ -1,0 +1,24 @@
+:root {
+  --r-heading-text-transform: none;
+}
+
+.reveal .speaker-notes:before {
+  content: "Notes";
+}
+
+#highlight-color {  
+    color: CornflowerBlue;
+}
+
+.invisible-char {
+  visibility: hidden;   /* Hide the character */
+  font-size: 0;   /* Set font size to 0 to make it as small as possible */
+  line-height: 0;   /* Set line height to 0 to remove any space it might occupy */
+  margin: 0;   /* Set margin to 0 to remove any additional spacing */
+  padding: 0;   /* Set padding to 0 to remove any additional spacing */
+}
+
+.reveal h6 {
+  margin: 0 0;
+  opacity: 0.7;
+}
