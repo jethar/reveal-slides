@@ -5,7 +5,8 @@ This project is used to create slides using the reveal-md project.
 
 1. Clone the repository,
 2. Create slides in reveal.js markdown format in `md-files` folder. Use the files in `samples` folder as starting point examples.
-3. Run the following commands.
+3. Update `_site/site.webmanifest` as needed.
+4. Run the following commands.
 
 ```sh
 pnpm install
@@ -13,6 +14,10 @@ pnpm generate
 ```
 
 This would create the static html version in `_site` folder which you can then host using gh-pages or otherwise.
+
+**Additional Steps:**
+
+* Add elements to generated html as needed, like the Google Tags etc.
 
 ## Resources
 
